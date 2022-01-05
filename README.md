@@ -86,4 +86,9 @@ powerButton.setTitle("Turn On", for: .normal)
 powerButton.setTitleColor(.white, for: .normal)
 ```
 
-Hey! Great work! You’ve just completed your very first app!
+Hey! Great work! You’ve just completed your very first app! If you have some extra time or want a challenge feel free to try these stretches!
+
+Level 1 - Use a switch statement instead of an if statement
+Level 2 -  Use a Ternary operator instead of an if statement
+Level 3 - Don’t use a property to keep track of the `isOn` state
+Level 4 -  Remove the IBOutlet for your button
