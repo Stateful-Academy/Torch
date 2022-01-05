@@ -14,6 +14,9 @@ class ViewController: UIViewController {
     var isOn: Bool = false
     
     @IBAction func powerButtonTapped(_ sender: UIButton) {
+        /**
+         Since isOn Is already `Bool` check to see if its equal to true is redundent. This is because its value is already `true` or `false`.
+         */
         if isOn {
             view.backgroundColor = .black
             isOn = false
