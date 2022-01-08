@@ -37,6 +37,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3EE284D22786447B000FA049 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				414FE5F62768825A0035CF21 /* AppDelegate.swift */,
+				414FE5F82768825A0035CF21 /* SceneDelegate.swift */,
+				414FE5FF2768825C0035CF21 /* Assets.xcassets */,
+				414FE6012768825C0035CF21 /* LaunchScreen.storyboard */,
+				414FE6042768825C0035CF21 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		414FE5EA2768825A0035CF21 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +68,9 @@
 		414FE5F52768825A0035CF21 /* Torch */ = {
 			isa = PBXGroup;
 			children = (
-				414FE5F62768825A0035CF21 /* AppDelegate.swift */,
-				414FE5F82768825A0035CF21 /* SceneDelegate.swift */,
+				3EE284D22786447B000FA049 /* Resources */,
 				414FE5FA2768825A0035CF21 /* ViewController.swift */,
 				414FE5FC2768825A0035CF21 /* Main.storyboard */,
-				414FE5FF2768825C0035CF21 /* Assets.xcassets */,
-				414FE6012768825C0035CF21 /* LaunchScreen.storyboard */,
-				414FE6042768825C0035CF21 /* Info.plist */,
 			);
 			path = Torch;
 			sourceTree = "<group>";
@@ -289,9 +297,9 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4J7B9732LY;
+				DEVELOPMENT_TEAM = UCL5625TDG;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Torch/Info.plist;
+				INFOPLIST_FILE = Torch/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -317,9 +325,9 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4J7B9732LY;
+				DEVELOPMENT_TEAM = UCL5625TDG;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Torch/Info.plist;
+				INFOPLIST_FILE = Torch/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
