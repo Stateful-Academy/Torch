@@ -1,18 +1,16 @@
 # Torch
 
-# Torch
-
 We are going to build a simple flashlight app. While an app like this may seem simple on the outside it has some challenging logic and `state` tracking.
 
 What is `state` in programming? 
 
-> An example of an everyday device that has a `state` is a television set. To change the channel of a TV, the user usually presses a "channel up" or "channel down" button on the remote control, which sends a coded message to the set. 
+> An example of an everyday device that has a `state` is a [television set](https://en.wikipedia.org/wiki/Television_set). To change the channel of a TV, the user usually presses a "channel up" or "channel down" button on the remote control, which sends a coded message to the set. 
 
-In order to calculate the new channel that the user desires, the digital tuner in the television must have stored in it the number of the *current channel* it is on. It then adds one or subtracts one from this number to get the number for the new channel, and adjusts the TV to receive that channel. This new number is then stored as the *current channel*. Similarly, the television also stores a number that controls the level of volume produced by the speaker. Pressing the "volume up" or "volume down" buttons increments or decrements this number, setting a new level of volume. 
+> In order to calculate the new channel that the user desires, the digital tuner in the television must have stored in it the number of the *current channel* it is on. It then adds one or subtracts one from this number to get the number for the new channel, and adjusts the TV to receive that channel. This new number is then stored as the *current channel*. Similarly, the television also stores a number that controls the level of [volume](https://en.wikipedia.org/wiki/Loudness) produced by the speaker. Pressing the "volume up" or "volume down" buttons increments or decrements this number, setting a new level of volume. 
 
-Both the *current channel* and *current volume* numbers are part of the TV's **`state`**. 
-- Wikipedia
-> 
+> Both the *current channel* and *current volume* numbers are part of the TV's **`state`**. 
+> [Wikipedia](https://en.wikipedia.org/wiki/State_(computer_science))
+
 
 # Let's get started!
 
@@ -110,6 +108,6 @@ First, we need to check the condition of the flashlight -  whether it is `on` or
 
 Hey! Great work! You’ve just completed your very first app! Why not push yourself with these challenges:
 
-Level 1 - Use a `switch` statement instead of an `if statement`.
-Level 2 - Use a `Ternary Operator` instead of an `if statement`.
-Level 3 - Use something other than the `IsOn` to track the `state`.
+- Level 1 - Use a `switch` statement instead of an `if statement`.
+- Level 2 - Use a `Ternary Operator` instead of an `if statement`.
+- Level 3 - Use something other than the `IsOn` to track the `state`.
