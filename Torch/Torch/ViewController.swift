@@ -28,6 +28,7 @@ class ViewController: UIViewController {
             powerButton.setTitle("Turn Off", for: .normal)
             powerButton.setTitleColor(.black, for: .normal)
         }
+    }
         
         // Stretch 1:- with Switch
 //        switch isOn {
@@ -66,17 +67,4 @@ class ViewController: UIViewController {
 //                                    .black : .white
 //                                  , for: .normal)
         
-        // Strech 4:- Don't use a button Outlet
-//                if isOn {
-//                    view.backgroundColor = .black
-//                    isOn = false
-//                    sender.setTitle("Turn On", for: .normal)
-//                    sender.setTitleColor(.white, for: .normal)
-//                } else {
-//                    view.backgroundColor = .white
-//                    isOn = true
-//                    sender.setTitle("Turn Off", for: .normal)
-//                    sender.setTitleColor(.black, for: .normal)
-//                }
-    }
 }
